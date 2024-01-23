@@ -372,10 +372,96 @@
         </div>
        </div>
     </section>
+     <!-- add get in touch section  -->
+     <section class="mt-32">
+        <div class="mb-16">
+            <h1 class="text-4xl font-extrabold text-center text-[#131318]">Get In Touch</h1>
+            <p class="lg:w-[750px] mx-auto text-center text-text-color">To know more about us please contact us.You can Call us or submit your admission  form through our email.We will contact you as soon as possible</p>
+        </div>
+        <div class="flex flex-col md:flex-col lg:flex-row justify-center justify-around gap-6 lg:gap-20">
+            <!-- section contact div  -->
+            <div class="grid grid-cols-1 gap-6 flex-1">
+                <div class="bg-base-200 p-4 rounded-lg">
+                    <img src="Images/3d-accept 1.svg" alt="">
+                    <p><span class="text-text-color">phone number</span> <br>(+62) 123-321-543</p>
+                </div>
+                <div class="bg-base-200 p-4 rounded-lg ">
+                    <img src="Images/direct 1.svg" alt="">
+                    <p><span class="text-text-color">Email</span> <br>
+                        hockeys@support.com</p>
+                </div>
+                <div class="bg-base-200 p-4 rounded-lg">
+                    <img src="Images/google-maps 1.svg" alt="">
+                    <p><span class="text-text-color">location</span> <br>152/1 Mohakhali Wireless Gate</p>
+                </div>
+            </div>
+            <!-- section form div  -->
+            <div class="">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ">
+              <div class="">
+                <label class="block" for="name"> <span class="font-bold text-[#131318]">Your Name</span> </label>
+                <input class=" w-full lg:w-80 py-2 px-1" type="text" name="Name" id="" placeholder="Enter you name">
+                <label class="block" for="Email"><span class="font-bold text-[#131318]">Your Email</span></label>
+                <input class=" w-full lg:w-80 py-2 px-1" type="email" name="email" id="" placeholder="Enter Your Email">
+            </div>
+            <div> 
+                <label class="block" for="subject"><span class="font-bold text-[#131318]">Subject</span></label>
+                <input class=" w-full lg:w-80 py-2 px-1" type="text" name="subject" id="" placeholder="Enter your subject">
+                <label class="block" for="number"><span class="font-bold text-[#131318]">Your Number</span></label>
+                <input class=" w-full lg:w-80 py-2 px-1" type="number" name="number" id="" placeholder="Enter your Number">
+              </div>
+            </div>
+            <label class="block" for="Message"><span class="font-bold text-[#131318]">Message</span></label>
+            <textarea class="w-full px-2 py-1" name="massage" id="" cols="40" rows="10" placeholder="Write your message"></textarea>
+            <button class="btn bg-btn-primary text-white w-full hover:text-black">Send Message</button>
+            </div>
+        </div>
+        <div class="bg-[#13131312] rounded-lg mt-10 p-5 space-y-2">
+            <h1 class="text-center">Social Media</h1>
+            <div class="flex justify-center gap-5">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+     </section>
     </main>
-    <footer>
-
-    </footer>
+    <!-- add footer section  -->
+    <footer class="footer p-10 bg-[#131318] text-base-content">
+        <nav>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form>
+          <header class="footer-title">Newsletter</header> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
 </body>
 
 </html>
